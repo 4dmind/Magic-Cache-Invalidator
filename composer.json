@@ -1,0 +1,24 @@
+{
+    "name": "k4dmind/invalidate-entry-cache",
+    "autoload": {
+        "psr-4": {
+            "K4dmind\\InvalidateEntryCache\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "4dmind"
+        }
+    ],
+    "extra": {
+        "statamic": {
+            "name": "Invalidate Entry Cache",
+            "description": "Clear your cache for specific entry"
+        },
+        "laravel": {
+            "providers": [
+                "K4dmind\\InvalidateEntryCache\\ServiceProvider"
+            ]
+        }
+    }
+}
