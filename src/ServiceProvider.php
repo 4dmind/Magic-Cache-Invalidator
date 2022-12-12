@@ -3,12 +3,11 @@
 namespace Fdmind\MagicCacheInvalidator;
 
 use Statamic\Providers\AddonServiceProvider;
-use Fdmind\MagicCacheInvalidator\Actions\InvalidateEntryCache;
 
 class ServiceProvider extends AddonServiceProvider
 {
     protected $actions = [
-        InvalidateEntryCache::class,
+      Actions\InvalidateEntryCache::class,
     ];
 
     public function boot()
