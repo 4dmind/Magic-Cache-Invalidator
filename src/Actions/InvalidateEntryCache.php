@@ -1,6 +1,6 @@
 <?php
 
-namespace k4dmind\InvalidateEntryCache\Actions;
+namespace FDMind\InvalidateEntryCache\Actions;
 
 use Statamic\Actions\Action;
 use Statamic\Contracts\Entries\Entry;
