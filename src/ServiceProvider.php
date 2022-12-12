@@ -3,7 +3,7 @@
 namespace Fdmind\MagicCacheInvalidator;
 
 use Statamic\Providers\AddonServiceProvider;
-use Fdmind\InvalidateEntryCache\Actions\InvalidateEntryCache;
+use Fdmind\MagicCacheInvalidator\Actions\InvalidateEntryCache;
 
 class ServiceProvider extends AddonServiceProvider
 {
