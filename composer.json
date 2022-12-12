@@ -23,7 +23,7 @@
         },
         "laravel": {
             "providers": [
-                "FDMind\\MagicCacheInvalidator\\ServiceProvider"
+                "Fdmind\\MagicCacheInvalidator\\ServiceProvider"
             ]
         }
     }
