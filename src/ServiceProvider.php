@@ -1,6 +1,6 @@
 <?php
 
-namespace k4dmind\InvalidateEntryCache;
+namespace FDMind\InvalidateEntryCache;
 
 use Statamic\Providers\AddonServiceProvider;
 

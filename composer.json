@@ -1,23 +1,25 @@
 {
-    "name": "k4dmind/invalidate-entry-cache",
+    "name": "fdmind/magic-cache-invalidator",
+    "description": "Manages static cache invalidation for sites with site builder approach. Do you reference/relate an entry somewhere and that entry gets updated? It will clear static cache for a page where the changed entry is referenced. Oh.. and it also adds entry context menu option that allows to invalidate static cache for that entry.",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "K4dmind\\InvalidateEntryCache\\": "src"
+            "FDMind\\MagicCacheInvalidator\\": "src"
         }
     },
     "authors": [
         {
-            "name": "4dmind"
+            "name": "4dmind.com"
         }
     ],
     "extra": {
         "statamic": {
-            "name": "Invalidate Entry Cache",
-            "description": "Clear your cache for specific entry"
+            "name": "Magic Cache Invalidator",
+            "description": "Manages static cache invalidation for sites with site builder approach. Do you reference/relate an entry somewhere and that entry gets updated? It will clear static cache for a page where the changed entry is referenced. Oh.. and it also adds entry context menu option that allows to invalidate static cache for that entry."
         },
         "laravel": {
             "providers": [
-                "K4dmind\\InvalidateEntryCache\\ServiceProvider"
+                "FDMind\\MagicCacheInvalidator\\ServiceProvider"
             ]
         }
     }
