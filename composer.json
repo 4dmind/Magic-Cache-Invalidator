@@ -7,6 +7,10 @@
             "FDMind\\MagicCacheInvalidator\\": "src"
         }
     },
+    "require": {
+        "php": "^7.4 || ^8.0 || ^8.1",
+        "statamic/cms": "3.2.* || 3.3.*"
+    },
     "authors": [
         {
             "name": "4dmind.com"

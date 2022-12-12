@@ -1,6 +1,6 @@
 <?php
 
-namespace FDMind\InvalidateEntryCache;
+namespace FDMind\MagicCacheInvalidator;
 
 use Statamic\Providers\AddonServiceProvider;
 
